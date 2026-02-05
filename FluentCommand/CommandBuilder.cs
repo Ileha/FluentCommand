@@ -5,7 +5,7 @@ namespace FluentCommand;
 
 public class CommandBuilder
 {
-    private readonly List<CommandArgument> _arguments = new();
+    private readonly List<CommandArgument> _arguments = new List<CommandArgument>();
     private int _argumentIndex;
     private string? _command;
 
