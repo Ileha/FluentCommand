@@ -17,6 +17,6 @@ public class Verb : CommandArgument
 
     public override string ToString()
     {
-        return Escape(_value);
+        return _value;
     }
 }
